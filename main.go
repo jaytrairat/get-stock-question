@@ -12,7 +12,7 @@ func main() {
 	var titleLength int
 
 	var rootCmd = &cobra.Command{
-		Use:   "textformatter",
+		Use:   "get-stock-question",
 		Short: "Formats text and saves it to the clipboard",
 		Long:  `This CLI formats the given text and copies it to the clipboard.`,
 		Run: func(cmd *cobra.Command, args []string) {
